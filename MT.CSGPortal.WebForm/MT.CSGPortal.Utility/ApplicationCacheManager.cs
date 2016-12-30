@@ -22,7 +22,7 @@ namespace MT.CSGPortal.Utility
              }
              catch (Exception ex)
              {
-                 Elmah.ErrorSignal.FromCurrentContext().Raise(ex);
+                 //Elmah.ErrorSignal.FromCurrentContext().Raise(ex);
                  return default(T);
              }
         }
